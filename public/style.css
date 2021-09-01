@@ -1,0 +1,106 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    background-image: url('https://www.hollywoodreporter.com/wp-content/uploads/2019/12/thr_hargrave_ricky_gervias_1437.jpg');
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    opacity: 0.8;
+}
+
+nav {
+    display: flex;
+    height: 5vmin;
+    width: 100%;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+
+nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    margin: 0 1em;
+    padding: 0 2em;
+    text-decoration: none;
+    color: white;
+} 
+
+nav a:hover {
+    background-color: red;
+}
+
+strong {
+    float: left;
+    margin: .2em;
+    font-size: 1.5em;
+    color: white;
+}
+
+.home-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+h1 {
+    font-size: 10em;
+    padding: .1em;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+}
+
+.about {
+    background-image: url('https://www.hollywoodreporter.com/wp-content/uploads/2013/08/shot_02_041_a_l.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-title {
+    color: white;
+    margin-bottom: .5em;
+    font-size: 8em;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.about-content p {
+    padding: .5em;
+    font-weight: 500;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+
+.about-content img {
+    width: 30vw;
+    margin: 0 1em;
+    height: 50vh;
+}
+
+.work {
+    background-image: url('https://pbs.twimg.com/media/Ddw2onAV4AAgpeR.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+   background-size:contain;
+   
+}
